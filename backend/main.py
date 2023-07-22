@@ -18,7 +18,7 @@ async def add(arg1: str, arg2: str):
     return {"result": float(arg1) - float(arg2)}
 
 
-@app.get("/api/mult")
+@app.get("/api/mul")
 async def add(arg1: str, arg2: str):
     return {"result": float(arg1) * float(arg2)}
 
